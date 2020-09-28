@@ -1,0 +1,25 @@
+body {
+   background-image: url(./assets/WEBSITEbckg.png);
+   background-size: cover;
+}
+
+.main-panel {
+   position: relative;
+   width:800px; margin:0 auto;
+   top: 80px
+}
+
+.link-list {
+   position: relative;;
+   width: 400px;
+   display: block;
+   overflow: hidden;
+   left: 25%;
+   top: -64px;
+}
+
+.link-gif {
+   position: relative;
+   left: -50%;
+}
+
