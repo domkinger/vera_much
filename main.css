@@ -3,26 +3,32 @@ body {
    width: 100vw;
    background-image: url(./assets/WEBSITEbckg.png);
    background-size: cover;
-   overflow: hidden;
+   overflow-x: hidden;
+   -ms-overflow-style: none;  /* IE and Edge */
+   scrollbar-width: none;  /* Firefox */
 }
+
+/* Hide scrollbar for Chrome, Safari and Opera */
+body::-webkit-scrollbar {
+   display: none;
+ }
 
 .main-panel {
    position: relative;
-   width:600px; margin:0 auto;
+   width:450px; margin:0 auto;
    top: 80px
 }
 
 .link-list {
    position: relative;;
-   width: 300px;
+   width: 225px;
    display: block;
    overflow: hidden;
    left: 25%;
-   top: -64px;
+   top: -32px;
 }
 
 .link-gif {
    position: relative;
    left: -50%;
 }
-
